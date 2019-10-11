@@ -1,19 +1,16 @@
 //
 //  SVProgressHUDAppDelegate.h
-//  SVProgressHUD, https://github.com/TransitApp/SVProgressHUD
+//  SVProgressHUD, https://github.com/SVProgressHUD/SVProgressHUD
 //
-//  Copyright (c) 2011-2014 Sam Vermette and contributors. All rights reserved.
+//  Copyright (c) 2011-2019 Sam Vermette and contributors. All rights reserved.
 //
-
 
 #import <UIKit/UIKit.h>
 
-@class ViewController;
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@interface AppDelegate : NSObject <UIApplicationDelegate>
+@property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) IBOutlet UIWindow *window;
-@property (strong, nonatomic) IBOutlet ViewController *viewController;
 
 @end
 
